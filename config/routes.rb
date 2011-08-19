@@ -1,7 +1,8 @@
 Theweekender::Application.routes.draw do
-  get "foursquare/index"
-  
   root :to => "foursquare#index"
+
+  get "foursquare/index"
+  get "foursquare/feed"
   
   
   # The priority is based upon order of creation:
